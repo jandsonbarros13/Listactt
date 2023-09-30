@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  background-image: url("https://cdn.w600.comps.canstockphoto.com.br/site-web-modelo-se%C3%A7%C3%A3o-tecla-n%C3%B3s-fotos_csp11332982.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20rem;
+  width: 30rem;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.preenche {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  margin-left: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  width: 60px;
+}
+
+#btn {
+  margin-left: 0;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+}
+
+li {
+  background-color: black;
+  color: white;
+  width: 30rem;
+  text-align: center;
+}
